@@ -19,7 +19,7 @@ tags:
 # 简单介绍
 卷挂载业务关系到Openstack的两个组件：Nova和Cinder,本文以ISCSI存储连接方式为例做详解
 # 代码步骤
-1. 接口地址/请求参数
+## 接口地址/请求参数
 /servers/{server_id}/os-volume_attachments
 ```
 {
@@ -29,4 +29,4 @@ tags:
     }
 }
 ```
-# 代码步骤
+## 代码流程
